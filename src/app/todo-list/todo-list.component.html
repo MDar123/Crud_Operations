@@ -1,0 +1,10 @@
+<h1>Learning Todo list</h1>
+<div>
+    <label for="">Write Your Full Name
+    <input type="text" #text placeholder="Enter Your Name">
+</label>
+<button (click)="addtolist(text.value)">Add Item To List</button>
+</div>
+<ul *ngFor = "let item of list">
+    <li>{{item.name}} <button (click)="removeTask(item.id)">Remove Me</button> </li>
+</ul>

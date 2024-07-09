@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.details{
+    margin-top: 20px;
+}
+th , td {
+    font-size: 20px;
+}
+#addbtn{
+    font-size: 20px;
+    background-color: #131842;
+    border: none;
+}
